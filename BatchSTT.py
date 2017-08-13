@@ -83,8 +83,8 @@ def CreateSentDict(sentenceFILE):
     return Sentences
         
 r = sr.Recognizer() 
-sentenceFILE = "/Users/George/Documents/CurrentProjectFiles/SentenceGeneration/SentencesforTesting/test_sentences.txt"
-FILEPATH = "/Users/George/Documents/CurrentProjectFiles/OpenSesameExpAMY09_08_17/Amy"
+sentenceFILE = "List of Sentences"
+FILEPATH = "FILEPATH"
 Transcriptions, Scores,Sentences = BatchTranscribe(FILEPATH,sentenceFILE,30)
 
 columns = ['Track','Transcription','Real_Sentence','Score']
